@@ -13,6 +13,8 @@ I downloaded a 1000 Genomes VCF for chromosome 14 and performed the following mo
 
 Step 4 was done to ensure that we're going though all the new logic introduced by the new missingness feature.
 
+See [bin/make-data.sh][6] and [bin/add-random-missingness.py][7] for the details.
+
 ## Benchmarking
 
 I ran the following code 10 times for each variant set on the two different code bases (one with and without the new missingness feature), and noted the execution timings:
@@ -25,7 +27,7 @@ def benchmark(vcf):
         variant.gt_types
 ```
 
-See [benchmark-cyvcf2.py][1]
+See [bin/benchmark-cyvcf2.py][1] for the details.
 
 ## Results
 
@@ -48,3 +50,5 @@ Looks like the new feature makes the code slightly slower for a small number of 
 [3]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/alternative-benchmark.dat
 [4]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/benchmark.png
 [5]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/benchmark-log-scale.png
+[6]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/bin/make-data.sh
+[7]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/bin/add-random-missingness.sh
