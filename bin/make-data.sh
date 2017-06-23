@@ -95,8 +95,3 @@ chrom=$1
 rows=$2
 
 main ${chrom} ${rows};
-
-# curl -u user:password 'ftp://mysite/%2fusers/myfolder/myfile/raw' -o ~/Downloads/myfile.raw
-# https://stackoverflow.com/questions/1450393/how-do-you-read-from-stdin-in-python
-# https://stackoverflow.com/questions/20816375/how-to-read-line-by-line-from-stdin-in-python
-# https://stackoverflow.com/questions/7791559/how-to-read-a-file-or-stdin-line-by-line-in-python-not-waiting-for-reading-ent
