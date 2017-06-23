@@ -45,6 +45,6 @@ Looks like the new feature makes the code slightly slower for a small number of 
 [0]: https://github.com/brentp/cyvcf2/pull/55
 [1]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/bin/benchmark-cyvcf2.py
 [2]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/control-benchmark.dat
-[3]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blog/master/results/alternative-benchmark.dat
-[4]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blog/master/results/benchmark.png
-[5]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blog/master/results/benchmark-log-scale.png
+[3]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/alternative-benchmark.dat
+[4]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/benchmark.png
+[5]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/benchmark-log-scale.png
