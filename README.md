@@ -36,7 +36,7 @@ Looks like the new feature makes the code slightly slower for a small number of 
 ### Raw Data
 
 * [Raw data timings with the original code base (without the missingness feature)][2]
-* [Raw data times with the new code base (with the missingness feature)][3]
+* [Raw data timings with the new code base (with the missingness feature)][3]
 
 ### Plots
 
