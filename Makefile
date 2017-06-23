@@ -11,7 +11,7 @@ ALT_VENV := vendor/venv/alternative
 ALT_CYVCF2 := $(ALT_VENV)/lib/python2.7/site-packages/cyvcf2/cyvcf2.pyx
 ALT_BENCHMARK := data/alternative-benchmark.dat
 
-.PHONY: clean benchmark
+.PHONY: clean plot record
 
 all: $(CONTROL_BENCHMARK) $(ALT_BENCHMARK)
 
@@ -52,3 +52,13 @@ clean:
 	rm -rf $(ALT_VENV)
 	rm -rf data/$(CHROM).*
 	rm -f $(CONTROL_BENCHMARK) $(ALT_BENCHMARK)
+	rm -f data/*.png
+
+plot:
+	Rscript bin/plot-timings.r
+
+record:
+	mkdir -p results
+	cp -rv data/*.png results
+	cp -rv $(CONTROL_BENCHMARK) results
+	cp -rv $(ALT_BENCHMARK) results
