@@ -10,7 +10,8 @@ def add_missingness(num_missing):
         data = line.rstrip().split("\t")
         randomize = random.sample(range(9, len(data)), num_missing)
         for r in randomize:
-            data[r] = './.'
+            randint = random.randint(0,4)
+            data[r] = ('./.', '0/.', './0', '1/.', './1')[randint]
         new_data = "\t".join(data)
         print(new_data)
 
