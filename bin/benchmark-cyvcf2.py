@@ -24,7 +24,7 @@ if __name__ == "__main__":
     num_variants.sort()
 
     # total number of test attempts to try
-    repeats = 5
+    repeats = 10
     
     # print a header
     trials = [ 'Trial{}'.format(x) for x in range(1, repeats+1) ]
