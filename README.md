@@ -51,4 +51,4 @@ Looks like the new feature makes the code slightly slower for a small number of 
 [4]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/benchmark.png
 [5]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/results/benchmark-log-scale.png
 [6]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/bin/make-data.sh
-[7]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/bin/add-random-missingness.sh
+[7]: https://github.com/indraniel/cyvcf2-missingness-feature-benchmarks/blob/master/bin/add-random-missingness.py
