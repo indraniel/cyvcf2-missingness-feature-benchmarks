@@ -1,6 +1,6 @@
 _This repository contains the logic to reproduce the benchmarking metrics for cyvcf2's [missingness feature][0]._
 
-# Testing Methodology
+# Methodology
 
 ## Setup / Generate a test data set
 
